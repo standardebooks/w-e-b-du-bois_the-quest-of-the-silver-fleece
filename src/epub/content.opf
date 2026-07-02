@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/w-e-b-du-bois/the-quest-of-the-silver-fleece</dc:identifier>
 		<dc:date>1900-01-01T00:00:00Z</dc:date>
 		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -30,36 +31,36 @@
 		<dc:title id="title">The Quest of the Silver Fleece</dc:title>
 		<meta property="file-as" refines="#title">Quest of the Silver Fleece, The</meta>
 		<dc:subject id="subject-1">Psychological fiction</dc:subject>
-		<meta property="authority" refines="#subject-1">LCHS</meta>
+		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh85108438</meta>
 		<dc:subject id="subject-2">Rejection (Psychology) -- Fiction</dc:subject>
-		<meta property="authority" refines="#subject-2">LCHS</meta>
+		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh2008110390</meta>
 		<dc:subject id="subject-3">Love stories</dc:subject>
-		<meta property="authority" refines="#subject-3">LCHS</meta>
+		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">Unknown</meta>
 		<dc:subject id="subject-4">African Americans -- Fiction</dc:subject>
-		<meta property="authority" refines="#subject-4">LCHS</meta>
+		<meta property="authority" refines="#subject-4">LCSH</meta>
 		<meta property="term" refines="#subject-4">sh2007100196</meta>
 		<dc:subject id="subject-5">Social classes -- Fiction</dc:subject>
-		<meta property="authority" refines="#subject-5">LCHS</meta>
+		<meta property="authority" refines="#subject-5">LCSH</meta>
 		<meta property="term" refines="#subject-5">sh2008111427</meta>
 		<dc:subject id="subject-6">African American women -- Fiction</dc:subject>
-		<meta property="authority" refines="#subject-6">LCHS</meta>
+		<meta property="authority" refines="#subject-6">LCSH</meta>
 		<meta property="term" refines="#subject-6">sh2007100489</meta>
 		<dc:subject id="subject-7">Swamps -- Fiction</dc:subject>
-		<meta property="authority" refines="#subject-7">LCHS</meta>
+		<meta property="authority" refines="#subject-7">LCSH</meta>
 		<meta property="term" refines="#subject-7">sh2008111805</meta>
 		<dc:subject id="subject-8">Power (Social sciences) -- Fiction</dc:subject>
-		<meta property="authority" refines="#subject-8">LCHS</meta>
+		<meta property="authority" refines="#subject-8">LCSH</meta>
 		<meta property="term" refines="#subject-8">sh2010107970</meta>
 		<dc:subject id="subject-9">Cotton trade -- Fiction</dc:subject>
-		<meta property="authority" refines="#subject-9">LCHS</meta>
+		<meta property="authority" refines="#subject-9">LCSH</meta>
 		<meta property="term" refines="#subject-9">sh2009122117</meta>
 		<dc:subject id="subject-10">Race -- Fiction</dc:subject>
-		<meta property="authority" refines="#subject-10">LCHS</meta>
+		<meta property="authority" refines="#subject-10">LCSH</meta>
 		<meta property="term" refines="#subject-10">Unknown</meta>
-		<meta property="se:subject">Fiction</meta>
+		<meta property="schema:genre">Fiction</meta>
 		<dc:description id="description">In the post-Reconstruction era, a young Black man and woman from the deep South struggle to overcome the economic and political fleecing of their community.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;In post-Reconstruction Alabama, amidst the “silver fleece” of the cotton fields, a school for Black children attracts pupils eager to learn (but often unable to pay tuition)—and the hostility of plantation owners intent on maintaining their status and power. Among the pupils are Bles Alwyn, an ambitious and intelligent boy from Georgia, and Zora, an independent and mysterious Black girl from the nearby swamp. The story follows the efforts of Bless and Zora to help others in the working class by providing educational and economic opportunities that trap them in poverty: Bles by working within the political system, and Zora by building a collective that attempts to bypass the system.&lt;/p&gt;
@@ -68,21 +69,23 @@
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/15265</dc:source>
 		<dc:source>https://archive.org/details/questofsilverfle0000dubo_n0o6</dc:source>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/w-e-b-du-bois_the-quest-of-the-silver-fleece</meta>
+		<meta property="schema:wordCount">WORD_COUNT</meta>
+		<meta property="schema:educationalLevel">READING_EASE</meta>
+		<meta id="vcs-repository" property="schema:workExample">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/w-e-b-du-bois_the-quest-of-the-silver-fleece" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">W. E. B. Du Bois</dc:creator>
 		<meta property="file-as" refines="#author">Du Bois, W. E. B.</meta>
-		<meta property="se:name.person.full-name" refines="#author">William Edward Burghardt Du Bois</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/W._E._B._Du_Bois</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n80046721</meta>
+		<meta property="schema:alternateName" refines="#author">William Edward Burghardt Du Bois</meta>
+		<link href="https://en.wikipedia.org/wiki/W._E._B._Du_Bois" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n80046721.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">dto</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="artist">Winslow Homer</dc:contributor>
 		<meta property="file-as" refines="#artist">Homer, Winslow</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Winslow_Homer</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n79023170</meta>
+		<link href="https://en.wikipedia.org/wiki/Winslow_Homer" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n79023170.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Suzanne Shell</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Shell, Suzanne</meta>
@@ -92,7 +95,7 @@
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-3">Distributed Proofreaders</dc:contributor>
 		<meta property="file-as" refines="#transcriber-3">Distributed Proofreaders</meta>
-		<meta property="se:url.homepage" refines="#transcriber-3">https://www.pgdp.net/</meta>
+		<link href="https://www.pgdp.net/" refines="#transcriber-3" rel="schema:url"/>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Bennett Helm</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Helm, Bennett</meta>
