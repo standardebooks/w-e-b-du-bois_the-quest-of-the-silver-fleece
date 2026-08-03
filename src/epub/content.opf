@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/w-e-b-du-bois/the-quest-of-the-silver-fleece</dc:identifier>
 		<dc:date>2026-07-02T03:43:27Z</dc:date>
@@ -61,11 +61,11 @@
 		<meta property="authority" refines="#subject-10">LCSH</meta>
 		<meta property="term" refines="#subject-10">Unknown</meta>
 		<meta property="schema:genre">Fiction</meta>
-		<dc:description id="description">In the post-Reconstruction era, a young Black man and woman from the deep South struggle to overcome the economic and political fleecing of their community.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>In the post-Reconstruction era, a young Black man and woman from the deep South struggle to overcome the economic and political fleecing of their community.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;In post-Reconstruction Alabama, amidst the “silver fleece” of the cotton fields, a school for Black children attracts pupils eager to learn (but often unable to pay tuition)—and the hostility of plantation owners intent on maintaining their status and power. Among the pupils are Bles Alwyn, an ambitious and intelligent boy from Georgia, and Zora, an independent and mysterious Black girl from the nearby swamp. The story follows the efforts of Bless and Zora to help others in the working class by providing educational and economic opportunities that trap them in poverty: Bles by working within the political system, and Zora by building a collective that attempts to bypass the system.&lt;/p&gt;
 			&lt;p&gt;&lt;i&gt;The Quest of the Silver Fleece&lt;/i&gt;, &lt;a href="https://standardebooks.org/ebooks/w-e-b-du-bois"&gt;W. E. B. Du Bois’s&lt;/a&gt; first novel, depicts in literary form many of the themes and insights from his earlier sociological masterpiece, &lt;a href="https://standardebooks.org/ebooks/w-e-b-du-bois/the-souls-of-black-folk"&gt;&lt;i&gt;The Souls of Black Folk&lt;/i&gt;&lt;/a&gt;. Strikingly, Du Bois there anticipates this book, saying, “certainly one might frame a pretty and not far-fetched analogy of witchery and dragons’ teeth, and blood and armed men, between the ancient and the modern quest of the Golden Fleece”—between the seemingly endless series of tests Jason overcomes, and the seemingly endless series of economic hurdles Black sharecroppers have to overcome in order to achieve economic security and social equality. &lt;i&gt;The Quest of the Silver Fleece&lt;/i&gt; thus vividly portrays the interlocking educational, socioeconomic, and political barriers in the deep South during the post-Reconstruction era, as well as the “Veil” that separates the races, ultimately offering a compelling vision of the importance of community and education to overcoming the “Negro Problem.”&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/15265</dc:source>
 		<dc:source>https://archive.org/details/questofsilverfle0000dubo_n0o6</dc:source>
