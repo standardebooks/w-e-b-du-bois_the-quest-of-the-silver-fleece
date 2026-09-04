@@ -33,31 +33,31 @@
 		<dc:subject id="subject-1">Psychological fiction</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh85108438</meta>
-		<dc:subject id="subject-2">Rejection (Psychology) -- Fiction</dc:subject>
+		<dc:subject id="subject-2">Rejection (Psychology)--Fiction</dc:subject>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh2008110390</meta>
 		<dc:subject id="subject-3">Love stories</dc:subject>
 		<meta property="authority" refines="#subject-3">LCSH</meta>
 		<meta property="term" refines="#subject-3">Unknown</meta>
-		<dc:subject id="subject-4">African Americans -- Fiction</dc:subject>
+		<dc:subject id="subject-4">African Americans--Fiction</dc:subject>
 		<meta property="authority" refines="#subject-4">LCSH</meta>
 		<meta property="term" refines="#subject-4">sh2007100196</meta>
-		<dc:subject id="subject-5">Social classes -- Fiction</dc:subject>
+		<dc:subject id="subject-5">Social classes--Fiction</dc:subject>
 		<meta property="authority" refines="#subject-5">LCSH</meta>
 		<meta property="term" refines="#subject-5">sh2008111427</meta>
-		<dc:subject id="subject-6">African American women -- Fiction</dc:subject>
+		<dc:subject id="subject-6">African American women--Fiction</dc:subject>
 		<meta property="authority" refines="#subject-6">LCSH</meta>
 		<meta property="term" refines="#subject-6">sh2007100489</meta>
-		<dc:subject id="subject-7">Swamps -- Fiction</dc:subject>
+		<dc:subject id="subject-7">Swamps--Fiction</dc:subject>
 		<meta property="authority" refines="#subject-7">LCSH</meta>
 		<meta property="term" refines="#subject-7">sh2008111805</meta>
-		<dc:subject id="subject-8">Power (Social sciences) -- Fiction</dc:subject>
+		<dc:subject id="subject-8">Power (Social sciences)--Fiction</dc:subject>
 		<meta property="authority" refines="#subject-8">LCSH</meta>
 		<meta property="term" refines="#subject-8">sh2010107970</meta>
-		<dc:subject id="subject-9">Cotton trade -- Fiction</dc:subject>
+		<dc:subject id="subject-9">Cotton trade--Fiction</dc:subject>
 		<meta property="authority" refines="#subject-9">LCSH</meta>
 		<meta property="term" refines="#subject-9">sh2009122117</meta>
-		<dc:subject id="subject-10">Race -- Fiction</dc:subject>
+		<dc:subject id="subject-10">Race--Fiction</dc:subject>
 		<meta property="authority" refines="#subject-10">LCSH</meta>
 		<meta property="term" refines="#subject-10">Unknown</meta>
 		<meta property="schema:genre">Fiction</meta>
